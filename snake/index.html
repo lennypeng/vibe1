@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snake Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Snake Game</h1>
-    <canvas id="game" width="400" height="400"></canvas>
-    <p>Use arrow keys to move. Refresh to restart.</p>
+    <div class="container">
+        <h1>Snake Game</h1>
+        <div id="score">Score: 0</div>
+        <canvas id="game" width="400" height="400"></canvas>
+        <p>Use arrow keys to move. Refresh to restart.</p>
+    </div>
     <script src="snake.js"></script>
 </body>
 </html>
